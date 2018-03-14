@@ -12,6 +12,7 @@
 		E8DC889C204F386E006F0032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8DC889A204F386E006F0032 /* Main.storyboard */; };
 		E8DC889E204F386E006F0032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8DC889D204F386E006F0032 /* Assets.xcassets */; };
 		E8DC88A1204F386E006F0032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8DC889F204F386E006F0032 /* LaunchScreen.storyboard */; };
+		E8DC88A9204F38C5006F0032 /* OpenWeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DC88A8204F38C5006F0032 /* OpenWeatherAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E8DC889D204F386E006F0032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8DC88A0204F386E006F0032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8DC88A2204F386E006F0032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8DC88A8204F38C5006F0032 /* OpenWeatherAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpenWeatherAPI.swift; path = ../../../../../Downloads/OpenWeatherAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				E8DC8896204F386E006F0032 /* AppDelegate.swift */,
 				E8DC8898204F386E006F0032 /* ViewController.swift */,
+				E8DC88A8204F38C5006F0032 /* OpenWeatherAPI.swift */,
 				E8DC889A204F386E006F0032 /* Main.storyboard */,
 				E8DC889D204F386E006F0032 /* Assets.xcassets */,
 				E8DC889F204F386E006F0032 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				E8DC8899204F386E006F0032 /* ViewController.swift in Sources */,
 				E8DC8897204F386E006F0032 /* AppDelegate.swift in Sources */,
+				E8DC88A9204F38C5006F0032 /* OpenWeatherAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
